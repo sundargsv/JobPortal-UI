@@ -1,27 +1,26 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Business Frontpage](http://startbootstrap.com/template-overviews/business-frontpage/)
+Job Portal - Back end code
 
-[Business Frontpage](http://startbootstrap.com/template-overviews/business-frontpage/) is a basic business website template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+I have done UI and Back-end separately so as to decouple the UI and Business Code. So the people working on front end and back end can work independently. 
 
-## Getting Started
+Please follow the GitHub Links.
+1. Front end Repo :  https://github.com/sundargsv/JobPortal-UI
+2. Back end Repo : https://github.com/sundargsv/JobPortal-BackEnd
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/business-frontpage/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-business-frontpage.git`
-* Fork the repo
+Tech Stack used :
+1. Job Portal UI - Angular 1.x, Bootstrap 3 and Gulp (Task Runner)
+2. Job Portal (Back end) - Core Java (1.7), Spring, RESTful endpoints, Hibernate, MySQL, Maven, Junit, Postman Client (Testing tools)
 
-## Bugs and Issues
+Follow the steps to run the UI Module :
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-business-frontpage/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/business-frontpage/).
+1. First complete the Back end settup and start the server JobPortal (Back - end).
+2. Install gulp task runner in your machine and download the JobPortal (UI).
+3. Open terminal/ cmd, navigate to JobPortal and do the following task.
+          Terminal - gulp serve
+4. Once the UI application is on click on Jobs - menu to get list of jobs and to get more insights of the particular job click Apply.
 
-## Creator
+If any info needed, please contact me anytime :
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+Mobile :  +91 9688 265787.
+Skype : sundargsv2
+E-mail : gsundar93@gmail.com
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/gh-pages/LICENSE) license.
