@@ -1,4 +1,4 @@
-Job Portal - Back end code
+Job Portal - Front end code
 
 I have done UI and Back-end separately so as to decouple the UI and Business Code. So the people working on front end and back end can work independently. 
 
