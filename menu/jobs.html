@@ -1,0 +1,77 @@
+<div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <p class="lead">{{job.company}}</p>
+                <div class="list-group">
+                    <a href="#" class="list-group-item active">Job ID : {{job.id}}</a>
+                    <a href="#" class="list-group-item">Location : {{job.location}}</a>
+                    <a href="#" class="list-group-item">Category 3</a>
+                </div>
+                <div class="well">
+                   <h4>Key Highlights</h4>
+                   <div class="row">
+                       <div class="col-lg-12">
+                           <ul class="list-unstyled">
+                               <li>Under Graduate : B.Tech/B.E.
+                               </li>
+                               <li>Post Graduate : Not Required
+                               </li>
+                               <li>Industry : IT | Information Technology and Services
+                               </li>
+                               <li>Function : IT Software
+                               </li>
+                               <li>Notice Period : 60 days
+                               </li>
+                               <li>Experience : 2-6 years
+                               </li>
+                           </ul>
+                       </div>
+
+                   </div>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+
+                <div class="thumbnail">
+                    <img class="img-responsive" src="img/job2.jpg" alt="" >
+                    <div class="caption-full">
+                        <h4 class="pull-right">ID#{{job.id}}</h4>
+                        <h3><a href="#">{{job.title}}</a>
+                        </h3>
+                        <h4>Job Description</h4>
+                        <p>{{job.jobDescription}}:</p>
+                        <b>Key Skills</b>
+                        <ul ng-repeat="skill in job.skills">
+                            <li>{skill.name}</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="well">
+                    <u>In this role, you will: </u><br/>
+                    <ul>
+
+                      <li><b>Build</b> highly scalable responsive web-based applications in a distributed environment </li>
+                      <li>Develop code with high quality following best practices that is scalable, reliable, maintainable, secure and clean. </li>
+                      <li>Troubleshoot complex issues arising from a mix of services, users and devices spread across geographies and products.</li>
+                      <li>Collaborate with product & business to clearly understand requirements, propose viable and creative technical solutions</li>
+                      <li>Partner with quality engineers, explain the code for impact analysis.</li>
+                      <li>Be a great team player with a good sense of humour, have empathy towards team members, ability to mentor junior members of the team.</li>
+
+                    </ul>
+                    <div class="text-right">
+                        <a ng-show="!isApplied" class="btn btn-success" ng-click="apply()">Apply</a>
+                        <b ng-show="isApplied">You have already applied to this job.</b>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    <!-- /.container -->

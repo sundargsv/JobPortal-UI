@@ -1,0 +1,49 @@
+{
+  "name": "Job",
+  "version": "2.0.0",
+  "authors": [
+    "Sundar Gsv"
+  ],
+  "description": "Job Portal UI web application with Bootstrap 3 and AngularJS.",
+  "keywords": [
+    "AngularJS",
+    "admin",
+    "admin",
+    "dashboard",
+    "admin",
+    "panel",
+    "app",
+    "charts",
+    "components",
+    "flat",
+    "flat",
+    "ui",
+    "responsive",
+    "responsive",
+    "layout",
+    "ui",
+    "kit",
+    "ui",
+    "route",
+    "web",
+    "app",
+    "widgets",
+    "DTS2.0"
+  ],
+  "license": "Daemon REGULAR LICENSE",
+  "homepage": "http://www.sundargsv.info",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.11"
+  },
+  "devDependencies": {
+    "jquery.sparkline": "^2.1.2"
+  }
+}
